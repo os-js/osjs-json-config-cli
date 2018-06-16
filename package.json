@@ -1,0 +1,29 @@
+{
+  "name": "@osjs/json-config-cli",
+  "version": "1.0.0",
+  "description": "Provices facility to maintain configuration files in JSON for OS.js v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/os-js/osjs-json-config-cli.git"
+  },
+  "keywords": [
+    "osjs"
+  ],
+  "engines": {
+    "node": ">=8.0"
+  },
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "simplejsonconf": "^2.0.2"
+  },
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/os-js/osjs-json-config-cli/issues"
+  },
+  "homepage": "https://github.com/os-js/osjs-json-config-cli#readme"
+}
