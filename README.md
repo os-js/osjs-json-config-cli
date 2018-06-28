@@ -13,8 +13,6 @@
 
 Provices facility to maintain configuration files in JSON for OS.js v3
 
-**PLEASE NOTE THAT THIS IS AN ALPHA PRE-RELEASE AND SUBJECT TO CHANGE WITHOUT NOTICE**
-
 ## Usage
 
 In your CLI bootstrap file (`src/cli/index.js`):
