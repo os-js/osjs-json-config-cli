@@ -45,7 +45,7 @@ const getConfig = (args, options) => {
 };
 
 const saveConfig = (conf, filename) =>
-  fs.writeJson(filename, conf.get(), 'utf8')
+  fs.writeJson(filename, conf.get(), 'utf8');
 
 const checkArguments = (args, required) => required.every(r => Object.keys(args).indexOf(r) !== -1)
   ? Promise.resolve(true)
@@ -54,7 +54,7 @@ const checkArguments = (args, required) => required.every(r => Object.keys(args)
 const saveAction = (args, options, cb) => getConfig(args, options)
   .then(({config, filename}) => {
     return cb(config, filename)
-      .then(() => saveConfig(config, filename))
+      .then(() => saveConfig(config, filename));
   });
 
 const setAction = (args, options, method) => checkArguments(args, ['key', 'value'])
