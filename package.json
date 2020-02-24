@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "fs-extra": "^6.0.1",
-    "simplejsonconf": "^2.0.2"
+    "simplejsonconf": "^2.0.7"
   },
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "BSD-2-Clause",
