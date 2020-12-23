@@ -26,7 +26,9 @@ In your CLI bootstrap file (`src/cli/index.js`):
 ```javasript
 const json = require('@osjs/osjs-json-config-cli');
 
-module.exports = [json];
+module.exports = {
+  tasks: [json]
+};
 ```
 
 To use a JSON file in your OS.js distro, ex `src/client/config.js`:
