@@ -8,7 +8,6 @@
 [![Support](https://img.shields.io/badge/opencollective-donate-red.svg)](https://opencollective.com/osjs)
 [![Donate](https://img.shields.io/badge/liberapay-donate-yellowgreen.svg)](https://liberapay.com/os-js/)
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/andersevenrud)
-[![Community](https://img.shields.io/badge/join-community-green.svg)](https://community.os-js.org/)
 
 # OS.js JSON Configuration CLI Module
 
@@ -16,7 +15,7 @@ Provices facility to maintain configuration files in JSON for OS.js.
 
 ## Installation
 
-```
+```shell
 npm install @osjs/json-config-cli
 ```
 
@@ -24,7 +23,7 @@ npm install @osjs/json-config-cli
 
 In your CLI bootstrap file (`src/cli/index.js`):
 
-```
+```javasript
 const json = require('@osjs/osjs-json-config-cli');
 
 module.exports = [json];
@@ -32,7 +31,7 @@ module.exports = [json];
 
 To use a JSON file in your OS.js distro, ex `src/client/config.js`:
 
-```
+```javasript
 import json from '../config.json';
 
 // THIS IS JUST AN EXAMPLE. YOU PROBABLY WANT TO USE 'deepmerge' OR SOMETHING SIMILAR.
@@ -63,7 +62,7 @@ See [simplejsonconf](https://github.com/andersevenrud/simplejsonconf) for more i
 
 ## Documentation
 
-See the [Official Manuals](https://manual.os-js.org/v3/) for articles, tutorials and guides.
+See the [Official Manuals](https://manual.os-js.org/) for articles, tutorials and guides.
 
 ## Links
 
@@ -71,6 +70,5 @@ See the [Official Manuals](https://manual.os-js.org/v3/) for articles, tutorials
 * [Community Forums and Announcements](https://community.os-js.org/)
 * [Homepage](https://os-js.org/)
 * [Twitter](https://twitter.com/osjsorg) ([author](https://twitter.com/andersevenrud))
-* [Google+](https://plus.google.com/b/113399210633478618934/113399210633478618934)
 * [Facebook](https://www.facebook.com/os.js.org)
 * [Docker Hub](https://hub.docker.com/u/osjs/)
