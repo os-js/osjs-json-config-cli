@@ -13,6 +13,8 @@
 
 Provices facility to maintain configuration files in JSON for OS.js.
 
+Useful to automate writing configuration files via CLI commands.
+
 ## Installation
 
 ```shell
